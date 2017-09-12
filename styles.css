@@ -20,6 +20,8 @@ a {
 }
 .wrapper {
     text-align: center;
+    max-width: 1024px;
+    margin: 0px auto;
 }
 h1 {
     margin: 1em;
@@ -45,6 +47,7 @@ section p, h2, h3 {
 .main-nav {
     margin-top: 1em;
     padding: 0;
+    text-align: center;
 }
 .main-nav a {
     text-align: center;
@@ -107,10 +110,15 @@ footer {
         display: inline-block;
         font-weight: 800;
     }
+    .main-nav {
+        text-align: center;
+    }
      
     /* ====== Header Changes ======*/
-    .main-header {
-       overflow: hidden;
+    .intro-div {
+        background-color: #F4F4F4;
+        overflow: hidden;
+        padding: 1.6em 1em;
     }
     .intro {
         padding: 1em;
