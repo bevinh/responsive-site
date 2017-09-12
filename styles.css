@@ -95,3 +95,38 @@ footer {
 .back-top {
     float: right;
 }
+
+/* ================================= 
+ 768px Styles
+==================================== */
+@media only screen and (min-width: 768px) {
+    
+    /* ====== Navigation Changes ======*/
+    .main-nav li {
+        background-color: transparent;
+        display: inline-block;
+        font-weight: 800;
+    }
+     
+    /* ====== Header Changes ======*/
+    .main-header {
+       overflow: hidden;
+    }
+    .intro {
+        padding: 1em;
+        text-align: left;
+    }
+    .profile-image {
+        margin-left: .5em;
+        float: right;
+    }
+    
+    /* ====== Portfolio Changes ======*/
+    .portfolio-item {
+        width: 48%;
+    }
+    .portfolio-item:nth-child(even){
+        margin-left: .5em;
+        float: right;
+    }
+}
