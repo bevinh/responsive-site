@@ -1,38 +1,51 @@
 /* ================================= 
   Base Styles
 ==================================== */
+
 *, *:before, *:after {
     box-sizing: border-box;
  }
+
 body {
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 1.6em;
     width: 100%;
     background-color: #F4F4F4;
     color: #828282;
  }
+
 a {
     text-decoration: none;
     color: #404749;
 }
+
 a:hover {
     color: #36ACD0;
 }
+
 .main-header {
     padding: 1em;
 }
+
 .wrapper {
     text-align: center;
     max-width: 1024px;
     margin: 0px auto;
 }
+
+h1, h2, h3 {
+    font-family: 'Varela Round', sans-serif;
+}
+
 h1 {
     margin: 1em;
     text-align: center;
 }
+
 h2 {
     font-size: 1.25em;
 }
+
 h3 {
     font-size: 1.5em;
     margin-bottom: .25em;
@@ -52,10 +65,12 @@ section p, h2, h3 {
     padding: 0;
     text-align: center;
 }
+
 .main-nav a {
     text-align: center;
     text-transform: uppercase;
 }
+
 .main-nav li {
     text-decoration: none;
     list-style: none; 
@@ -64,6 +79,7 @@ section p, h2, h3 {
     display: block;
     background-color: white;
 }
+
 
 /* ================================= 
   Portfolio Styles
@@ -79,25 +95,19 @@ img {
 }
 
 /* ================================= 
-  Contact Styles
-==================================== */
-
-tel {
-    color: #404749;
-}
-
-
-/* ================================= 
  Footer Styles
 ==================================== */
+
 footer {
     border-top: 0.5px solid #828282;
     display: block;
     padding: 1.5em 0em;
 }
+
 .student-name {
     float: left;
 }
+
 .back-top {
     float: right;
 }
@@ -108,25 +118,30 @@ footer {
 @media only screen and (min-width: 768px) {
     
     /* ====== Navigation Changes ======*/
+    
     .main-nav li {
         background-color: transparent;
         display: inline-block;
         font-weight: 800;
     }
+    
     .main-nav {
         text-align: center;
     }
      
     /* ====== Header Changes ======*/
+    
     .intro-div {
         background-color: #F4F4F4;
         overflow: hidden;
         padding: 1.6em 1em;
     }
+    
     .intro {
         padding: 1em;
         text-align: left;
     }
+    
     .profile-image {
         margin-left: .5em;
         float: right;
@@ -137,6 +152,7 @@ footer {
         width: 48%;
         margin-right: .5em;
     }
+    
     .portfolio-item:nth-child(even){
         margin-left: .5em;
         float: right;
@@ -148,41 +164,59 @@ footer {
 ==================================== */
 
 @media only screen and (min-width: 1024px) {
+    
     /* ====== Navigation Changes ======*/
+    
     h1{
         float: left;
     }
+    
     .main-nav li {
         background-color: transparent;
         display: inline-block;
         font-weight: 800;
         float: right;
+        padding: 0.5em 1em;
     }
+    
+    .main-nav li:hover {
+        border-bottom: 1px solid  #828282;
+    }
+    
      /* ====== Header Changes ======*/
+   
     .intro-div {
         clear: both;
     }
+    
      /* ====== Portfolio Changes ======*/
+    
     .portfolio-item {
         width: 30%;
     }
+    
     .portfolio-item {
         float:left;
         margin-right: 2%;
     }
+    
     .portfolio-item:nth-of-type(3n+1){
         margin-right: 3%;
     }
+    
     .portfolio-item:nth-of-type(3n+2){
         margin-right: 3%;
     }
+    
     .portfolio-item:nth-of-type(3n+3){
         margin-left: 1%;
     }
+    
     .portfolio-item:nth-of-type(3n+4) {
         clear:both;
         margin-right: 3%
     }
+    
     #portfolio {
         overflow: hidden;
         padding: 1.6em;
