@@ -43,7 +43,8 @@ section p, h2, h3 {
 ==================================== */
 
 .main-nav {
-    margin-top: 5px;
+    margin-top: 1em;
+    padding: 0;
 }
 .main-nav a {
     text-align: center;
