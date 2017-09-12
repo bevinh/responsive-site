@@ -3,10 +3,12 @@
         <title>Student Portfolio</title>
         <meta name=viewport content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="normalize.css" />
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="styles.css" />
     </head>
     <body>
-        <header class="main-header">
+        <div class="wrapper">
+        <header class="main-header" id="home">
             <div class="container">
             <h1>Student Name</h1>
                 <ul class="main-nav">
@@ -15,14 +17,10 @@
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
-            </header>
-           
-            <main>
-                <section>
-                    <img src="images/responsive-layout-profile.png" alt="Profile Image" />
+                <img src="images/responsive-layout-profile.png" alt="Profile Image" />
                     <p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
-                </section>
-                <section>
+            </header>
+            <section id="portfolio">
                 <h2>Portfolio</h2>
                     <img src="images/portfolio-1.png" alt="Marketing Page" />
                     <h3>Marketing Page</h3>
@@ -43,16 +41,17 @@
                     <h3>Calculator</h3>
                     <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
                 </section>
-                <section>
+                <section id="contact">
                 <h2>Contact</h2>
                     <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
                     <p>Phone <tel>+1(111)555-1234</tel></p>
                     <p>Email <a href="mailto: email@yoursite.com">email@yoursite.com</a></p>
                 </section>
-                </main>
+                           
                 <footer>
-                <div>Student Name</div>
-                <div>BACK TO TOP</div>
+                <div class="student-name">Student Name</div>
+                <div class="back-top"><a href="#home">BACK TO TOP</a></div>
                 </footer>
+            </div>
     </body>
 </html>
