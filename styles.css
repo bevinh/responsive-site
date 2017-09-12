@@ -171,11 +171,15 @@ footer {
         float: left;
     }
     
+    .main-nav {
+        float: right;
+    }
+    
     .main-nav li {
         background-color: transparent;
         display: inline-block;
         font-weight: 800;
-        float: right;
+        float: left;
         padding: 0.5em 1em;
     }
     
